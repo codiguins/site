@@ -1,0 +1,88 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: block;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 42rem;
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+select,
+input,
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 2px;
+    background: #ddd;
+    box-sizing: border-box;
+}
+
+#generateButton {
+    background-color: black;
+    color: #fff;
+    margin: 5px 0px 20px;
+}
+
+#copyButton {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#activateButton {
+    background-color: limegreen;
+    display: inline-block;
+    padding: 10px;
+    background-color: limegreen;
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+}
+
+.buttons {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin: 5px 0px 0px;
+}
+
+@media screen and (max-width: 420px) {
+    .buttons {
+        flex-direction: column;
+    }
+}
